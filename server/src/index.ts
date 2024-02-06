@@ -108,8 +108,8 @@ const resolvers = {
       console.log(input);
       let book: Book = {
         title: input.request.title,
-        author: { firstName: " Ayu", lastName: "y", userId: 3 },
-        id: Math.floor(Math.random() * 10000),
+        author: { firstName: " Ayu", lastName: "y", userId: 0 },
+        id: 0,
       };
       return book;
     },
